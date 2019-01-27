@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.calc {
+	width: 400px;
+	background-color: #000; 
+	color: #fff;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.screen {
+	font-size: 42px;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: right;
+	padding: 30px 5px;
+}
+
+.calc-button {
+	background-color: #d8d9db;
+	color: #000;
+	height: 100px;
+	width: 24.5%;
+	border: none;
+    font-size: 40px;
+    cursor: pointer;
+ }
+
+.calc-button:hover {
+	background-color: #ebebeb;
+}
+
+/* active is what happens when the button is pushed down */
+.calc-button:active {
+	background-color: #bbbcbe;
+}
+
+.calc-button:last-child {
+	background-color: #df974c;
+	color: #fff;
+}
+
+.calc-button:last-child:hover {
+	background-color: #dfb07e;
+}
+
+.calc-button:last-child:active {
+	background-color: #dd8d37;
+}
+
+.double {
+	width: 49.7%;
+}
+
+.triple {
+	width: 74.8%;
+	border-bottom-left-radius: 5px;
+}
+
+.round {
+	border-bottom-right-radius: 5px;
+
+}
+
+.calc-row {
+	display: flex;
+	align-content: stretch;
+	justify-content: space-between;
+	margin-bottom: 0.5%;
+}
